@@ -3,27 +3,39 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <style>
-		h4{font-family: 'Roboto','Arial';
-        font-weight:900;
-        font-size:25px;
-        line-height:29px;
-        text-align:center;
-        color:#164194;
-        text-shadow:0 0 10px #FFF}
+			body {
+             font-family: 'Roboto','Arial';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 20px;
+            color: #000000;
+            text-align: -webkit-center;
+            background-color: #e5e7e9;
+            }
 
         tbody {
             background: #FFFFFF;
             font-family: 'Roboto','Arial';
             font-style: normal;
             font-weight: normal;
-            font-size: 15px;
+            font-size: 17px;
             line-height: 20px;
             color: #000000;
-            text-align: center;
+            text-align: -webkit-center;
             text-shadow: 0px 0px 50px #FFFFFF;
             height: 100%;
             with: 100%;
         }
+        
+        h4{font-family: 'Roboto','Arial';
+        font-weight:900;
+        font-size:25px;
+        line-height:29px;
+        text-align:center;
+        color:#164194;
+        text-shadow:0 0 10px #FFF}
+        
         h6{
             font-family: 'Roboto','Arial';
     		font-weight: 900;
@@ -142,11 +154,17 @@
               text-align: center;
               text-shadow: 0px 0px 50px #FFFFFF;
 			}
-
+            
+            .clear-table{
+            width: auto; 
+            height: auto; 
+            margin-left: auto; 
+            margin-right: auto;
+            }
 
     	</style>
   </head>
-  <body >
+  <body style="width:100%">
        <div class="mt-3 mb-3">
       <div class="container-fluid m-0 p-0"> 
       	<div class="row m-0 p-0">
@@ -168,42 +186,34 @@
       </div>  
     </div> 
   	<img class="img-fluid" style="display:block;" src="https://raw.githubusercontent.com/SaulDuenas/Emails_Smart/main/img/candado.png" />
+
+      
     
     <div class="container-fluid pt-5">
-  
-       <div class="text-center space-bottom">  <h4>Hola, [[nombre del prospecto]]: </h4></div>
-<div class="text-center space-bottom" style="text-size: 10px;">  ¿Olvidaste tu contraseña? </div>
-<div class="text-center pl-4 pr-4">  Recibimos una solicitud de recuperación de contraseña para acceder a tu cuenta SBC. El correo con el que realizaste la solicitud es: </div>
-   <div class="text-center space-bottom">   [[correo_electronico_de_cuenta]]. </div>
-<div class="text-center space-bottom">  Para continuar con el proceso da clic en el siguiente botón: </div>
+
       
-      <div class="text-center space-bottom" >  <a href="#" target="_blank" class="button-blue">
-                                            Crear nueva contraseña
-                                        </a>
+     
       
-      </div>
-      
-   <div class="text-center space-bottom">Si tú no hiciste esta solicitud, ignora este correo.</div>
-    
-      
-       <div class="text-center text-important">  IMPORTANTE </div>
-      
-       <div class="d-flex"> 
-                            <ul class="list-inline mx-auto justify-content-center" style="list-style-type: circle; text-align: center; list-style-position: inside;">
-                                <li>Nunca compartas tu contraseña con alguien más.</li>
-                                <li>Crea contraseñas difíciles de adivinar y nunca utilices información personal.</li>
-                                <li>Asegúrate de incluir letras mayúsculas y minúsculas, números y símbolos.</li>
-                                <li>Utiliza contraseñas diferentes para cada cuenta en Internet.</li>
-                            </ul>
-                        </div>
-      
-       <div class="text-message" style="padding-top: 50px;"> Cualquier duda o aclaración envíanos un correo a 
-                            <a class="url-link" href="mailto:asesoria@smartbusinesscorp.com"  target="_blank"> asesoria@smartbusinesscorp.com</a> o un whatsapp al 
-                             <a class="url-link" href="https://api.whatsapp.com/send?phone=525611754467"  target="_blank">+52 56 1175 4467</a>
-                        </div>
-                        
-                  <div class="space-bottom">  <h6 style="margin-top: 30px;">Equipo de Smart Business Corp</h6> </div>
-          </div>
+        <table  class="clear-table"  style="padding-top: 50px; margin-left: 10px; margin-right: 10px; width:100%" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td class="text-center text-message">  Cualquier duda o aclaración envíanos un correo a 
+                <a class="url-link" href="mailto:asesoria@smartbusinesscorp.com"  target="_blank"> asesoria@smartbusinesscorp.com</a> </td>
+            </tr>
+            <tr>
+              <td class="text-center text-message">  o un whatsapp al 
+                <a class="url-link" href="https://api.whatsapp.com/send?phone=525611754467"  target="_blank">+52 56 1175 4467</a> </td>
+            </tr>
+
+            <tr>
+              <td class="text-center text-message">  o un whatsapp al 
+                <h6 style="margin-top: 25px;">Equipo de Smart Business Corp</h6> </td>
+            </tr>
+
+          </tbody>
+        </table>
+
+    </div>
     
    
     <img class="img-fluid"  style="display:block;"   src="https://raw.githubusercontent.com/SaulDuenas/Emails_Smart/main/img/footer.png" />
@@ -212,31 +222,26 @@
      <div class="container-fluid  p-0 m-0">
        <div class="pre-footer-background-dark-blue">
             <div class="pre-footer-text">
-                    
-              <div style="padding-bottom: 15px;">
+                 <div style="padding-bottom: 15px;">
+               <a target="_blank" href="https://www.facebook.com/smartbusinesscorpoficial" style="padding-top: 5px; text-decoration: none; border: none;">
+                  <img src="https://raw.githubusercontent.com/SaulDuenas/Emails_Smart/main/img/facebook.png" class="social_icon">
+                </a>
+                <a target="_blank" href="https://www.youtube.com/smartbusinesscorp" style="padding-top: 5px; text-decoration: none; border: none;">
+                  <img src="https://raw.githubusercontent.com/SaulDuenas/Emails_Smart/main/img/youtube.png" class="social_icon">
+                </a>
+                <a target="_blank" href="https://www.instagram.com/smartbusinesscorp" style="padding-top: 5px; text-decoration: none; border: none;">
+                  <img src="https://raw.githubusercontent.com/SaulDuenas/Emails_Smart/main/img/instagram.png" class="social_icon">
+                </a>
+                <a target="_blank" href="https://twitter.com/SBC_Mexico" style="padding-top: 5px; text-decoration: none; border: none;">
+                  <img src="https://raw.githubusercontent.com/SaulDuenas/Emails_Smart/main/img/twitter.png" class="social_icon">
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/company/smartbusinesscorp" style="padding-top: 5px; text-decoration: none; border: none;">
+                  <img src="https://raw.githubusercontent.com/SaulDuenas/Emails_Smart/main/img/linkedin.png" class="social_icon">
+                </a>
+              </div>       
               
-               <a href="https://www.facebook.com/smartbusinesscorpoficial" style="padding-top: 5px; text-decoration: none; border: none;">
-          <img src="https://raw.githubusercontent.com/SaulDuenas/Emails_Smart/main/img/facebook.png" class="social_icon">
-        </a>
-        <a href="https://www.youtube.com/smartbusinesscorp" style="padding-top: 5px; text-decoration: none; border: none;">
-          <img src="https://raw.githubusercontent.com/SaulDuenas/Emails_Smart/main/img/youtube.png" class="social_icon">
-        </a>
-        <a href="https://www.instagram.com/smartbusinesscorp" style="padding-top: 5px; text-decoration: none; border: none;">
-          <img src="https://raw.githubusercontent.com/SaulDuenas/Emails_Smart/main/img/instagram.png" class="social_icon">
-        </a>
-        <a href="https://twitter.com/SBC_Mexico" style="padding-top: 5px; text-decoration: none; border: none;">
-          <img src="https://raw.githubusercontent.com/SaulDuenas/Emails_Smart/main/img/twitter.png" class="social_icon">
-        </a>
-        <a href="https://www.linkedin.com/company/smartbusinesscorp" style="padding-top: 5px; text-decoration: none; border: none;">
-          <img src="https://raw.githubusercontent.com/SaulDuenas/Emails_Smart/main/img/linkedin.png" class="social_icon">
-        </a>
-              
-              </div>
-              
-              
-              
-              <div> © 2020 Smart Fund Limited.</div>
-                    <div style="padding-left:40px; padding-right:40px;"> No respondas a este correo electrónico. Este buzón no se supervisa y no recibirá respuesta. Si quieres dejar de recibir correos de este remitente,<a href="#" target="_blank" style="color: #00B3F9;"> haz clic aquí.</a>  </div>
+              <span> © 2020 Smart Fund Limited.</span>
+              <div style="padding-left:40px; padding-right:40px;"> No respondas a este correo electrónico. Este buzón no se supervisa y no recibirá respuesta. Si quieres dejar de recibir correos de este remitente,<a href="#" target="_blank" style="color: #00B3F9;"> haz clic aquí.</a> </div>
             </div>
        </div>
     </div> 
